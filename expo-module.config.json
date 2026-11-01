@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android"],
+  "apple": {
+    "modules": ["ThemedNotificationsModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.themednotifications.ThemedNotificationsModule"]
+  }
+}

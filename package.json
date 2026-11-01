@@ -1,0 +1,34 @@
+{
+  "name": "themed-notifications",
+  "version": "0.1.0",
+  "description": "Schedule daily local notifications on iOS and Android whose Android status-bar icon can be swapped per notification — without depending on expo-notifications' build-time-baked icon.",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "sideEffects": false,
+  "keywords": [
+    "react-native",
+    "expo",
+    "themed-notifications",
+    "ThemedNotifications",
+    "ios",
+    "android",
+    "notifications",
+    "local-notifications",
+    "notification-icon"
+  ],
+  "author": "Mustafa Alperen Yılmaz",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mustafa-alperen-yilmaz/themed-notifications.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mustafa-alperen-yilmaz/themed-notifications/issues"
+  },
+  "homepage": "https://github.com/mustafa-alperen-yilmaz/themed-notifications#readme",
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}

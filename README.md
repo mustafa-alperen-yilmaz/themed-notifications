@@ -10,10 +10,11 @@ notification banners automatically. The Android side owns its own scheduling end
 (`AlarmManager` + a `BroadcastReceiver`) instead of going through `expo-notifications`, so it can
 pick a different icon resource by name every time a notification fires.
 
-## Install
+## Installation
 
-This module ships as source, same as any other local Expo module: drop it under `modules/` in
-an Expo app and it's autolinked automatically (no `package.json` entry needed).
+```sh
+npx expo install themed-notifications
+```
 
 ## API
 

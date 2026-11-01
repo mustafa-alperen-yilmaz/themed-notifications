@@ -28,8 +28,8 @@ await scheduleDailyNotification({
   identifier: 'streak_warning',
   hour: 21,
   minute: 0,
-  title: 'TUSlab 🎃',
-  body: "Streak'ini kaybetme!",
+  title: 'TestApp 🎃',
+  body: "Test Notification!",
   androidSmallIcon: 'notification_icon_halloween', // optional, Android only
 });
 
